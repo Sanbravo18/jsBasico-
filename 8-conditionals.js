@@ -44,6 +44,16 @@ if(edad === 18) {
 
 console.log(accion);
 
+var validadorDeEdad = function(edad) {
+    if(edad === 18) {
+        accion = 'Puede votar, será su 1ra votación'
+    } else if(edad > 18) { 
+        accion = 'Puede votar'
+    } else { // call back 
+        accion = 'Aun no puede votar'
+    }
+    return accion;
+}
 
 
 /* ================================================================ */ 

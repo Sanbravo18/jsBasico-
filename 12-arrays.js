@@ -9,7 +9,7 @@ console.log(frutas);
 console.log(frutas.length); // length es una propiedad del array
 
 // Acceder (por índice) a un elemento del Array
-console.log(frutas[0]);   // Los arrays iician en "0" 
+console.log(frutas[0]);   // Los arrays inician en "0" 
 
 
 // === Metodos para mutar arrays ===
@@ -17,7 +17,7 @@ console.log(frutas[0]);   // Los arrays iician en "0"
 
 // .push();
 
- var masFrutas = frutas.push("Uvas"); // Esté metodo añadirá "Uvas" añ final del array
+ var masFrutas = frutas.push("Uvas"); // Esté metodo añadirá "Uvas" al final del array
  console.log(frutas);
 
 // .pop();
@@ -39,4 +39,5 @@ console.log(frutas);
 
 var posicion = frutas.indexOf("Platano"); // te dará la posición de ese item en el array
 console.log(frutas);
+console.log(posicion);
 
